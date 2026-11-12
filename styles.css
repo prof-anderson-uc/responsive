@@ -29,14 +29,13 @@ h2 {
 }
 
 
-
-
-
-
 /* DESKTOP Layout
 ------------------------------------*/
-body {
 
+/* Start here. Add your desktop styles to the rules below. */
+
+body {
+   /* Add a background color for the desktop layout. */
 }
 
 .wrapper {
@@ -45,6 +44,8 @@ body {
    padding: 0 0 2rem 0;
    box-shadow: 2px 2px 7px black;
    margin: 1.5rem auto;
+
+   /* Set a maximum width for the wrapper. */
 }
 
 main {
@@ -52,23 +53,33 @@ main {
    padding: 1rem;
    border-radius: 2rem;
    background-color: #cccccc;
+
+   /* Use Flexbox to arrange the three boxes in a row. */
 }
 
 .gallery {
    padding: 1rem;
+
+   /* Use Grid to create four columns with space between them. */
 }
 
 .gallery img {
    border: 2px solid black;
+
+   /* Let each image shrink to fit its gallery column. */
 }
 
 
 /* TABLET Media Query
 ------------------------------------*/
 
-
+/* Add the media query for viewport widths below 768px here.
+   Inside it, change the background color and build the two-column layouts. */
 
 
 /* PHONE Media Query
 ------------------------------------*/
 
+/* Add the media query for viewport widths below 480px here.
+   Inside it, change the background color and stack the boxes and images.
+   Keep this query after the tablet query so the phone rules can override it. */
